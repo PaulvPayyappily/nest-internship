@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Himachal Pradesh</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .main {
+      background-image: url('image/pexels-suketdedhia-570026.jpg'); 
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Discover Himachal Pradesh</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="state.html">States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div>
+      <h1 class="display-4">Welcome to Himachal Pradesh</h1>
+      <p class="lead">Explore the serene hills, adventure destinations, and vibrant culture of Himachal Pradesh.</p>
+    </div>
+  </section>
+
+  <div class="container himachal-pradesh-description my-4">
+    <h2 class="text-center mb-4">About Himachal Pradesh</h2>
+    <p class="text-center">
+      Himachal Pradesh, located in the northern part of India, is a state known for its breathtaking landscapes, high-altitude hill stations, and adventure activities. From the snow-capped mountains of **Manali** and **Shimla** to the spiritual atmosphere of **Dharamshala**, Himachal Pradesh offers a perfect getaway for nature lovers, adventure enthusiasts, and those seeking peace in the mountains.
+    </p>
+    <h4>Manali: The Adventure Hub</h4>
+    <p>
+      **Manali** is a popular hill station located in the Kullu Valley. Known for its adventure sports such as paragliding, trekking, skiing, and river rafting, it is a must-visit for adventure seekers. The stunning views of the **Himalayas** make Manali a great place for both relaxation and adrenaline-fueled activities.
+    </p>
+    <h4>Shimla: The Queen of Hill Stations</h4>
+    <p>
+      **Shimla**, the capital city of Himachal Pradesh, is known for its colonial charm and cool climate. The famous **Mall Road**, **Jakhoo Temple**, and **Ridge** are popular attractions. Shimla is a perfect place for family vacations and leisurely strolls amidst scenic surroundings.
+    </p>
+    <h4>Dharamshala: The Spiritual Retreat</h4>
+    <p>
+      **Dharamshala**, home to the Tibetan government-in-exile, is a peaceful hill station with a strong spiritual vibe. The **Dalai Lama Temple** and **Mcleodganj** offer a tranquil environment for meditation and reflection, making it a perfect retreat for those seeking peace and spirituality.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="container my-4">
+    <h4 id="contact">CONTACT</h4>
+    <form>
+      <div class="d-flex">
+        <div class="me-3">
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+        </div> 
+      </div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Message" rows="4" style="width: 400px;" required></textarea><br><br>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Discover Himachal Pradesh. All Rights Reserved.</p>
+      <p>Follow us on:
+        <a href="https://facebook.com" class="text-white mx-2" target="_blank">Facebook</a> |
+        <a href="https://instagram.com" class="text-white mx-2" target="_blank">Instagram</a> |
+        <a href="https://twitter.com" class="text-white mx-2" target="_blank">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

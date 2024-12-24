@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Tamil Nadu</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .main {
+      background-image: url('image/brihadishvara-2358280_1920.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Discover Tamil Nadu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="state.html">States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div>
+      <h1 class="display-4">Welcome to Tamil Nadu</h1>
+      <p class="lead">Explore the ancient temples, beautiful hill stations, and serene beaches.</p>
+    </div>
+  </section>
+
+  <div class="container tamil-nadu-description my-4">
+    <h2 class="text-center mb-4">About Tamil Nadu</h2>
+    <p class="text-center">
+      Tamil Nadu, located in the southernmost part of India, is known for its ancient temples, hill stations, and pristine beaches. The state boasts a rich cultural heritage, vibrant arts, classical music, and dance forms like Bharatanatyam. From the architectural marvels of Madurai’s Meenakshi Temple to the serene hill stations like Ooty and Kodaikanal, Tamil Nadu offers a perfect blend of nature, history, and tradition.
+    </p>
+    <h4>Temples of Tamil Nadu</h4>
+    <p>
+      Tamil Nadu is home to some of the most magnificent temples in India, including the famous Meenakshi Temple in Madurai, the Brihadeeswarar Temple in Thanjavur, and the Rameswaram Temple. These temples are not just religious centers but are architectural wonders that reflect the state's rich history and culture.
+    </p>
+    <h4>Hill Stations and Beaches</h4>
+    <p>
+      The hill stations of Tamil Nadu, such as Ooty and Kodaikanal, offer a refreshing escape from the heat. On the eastern coast, the state is also home to beautiful beaches like Marina Beach in Chennai and Covelong Beach, perfect for relaxation and water sports.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="container my-4">
+    <h4 id="contact">CONTACT</h4>
+    <form>
+      <div class="d-flex">
+        <div class="me-3">
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+        </div> 
+      </div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Message" rows="4" style="width: 400px;" required></textarea><br><br>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Discover Tamil Nadu. All Rights Reserved.</p>
+      <p>Follow us on:
+        <a href="https://facebook.com" class="text-white mx-2" target="_blank">Facebook</a> |
+        <a href="https://instagram.com" class="text-white mx-2" target="_blank">Instagram</a> |
+        <a href="https://twitter.com" class="text-white mx-2" target="_blank">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

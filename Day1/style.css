@@ -1,0 +1,102 @@
+.navbar{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar span{
+ 
+    padding-top: 10px;
+    padding-right: 25px;
+}
+
+.navbar a{
+
+    text-decoration: none;
+    color: black;
+}
+
+.navbar a:hover{
+
+    text-decoration: underline purple;
+    color: purple;
+    font-size: large;
+}
+
+
+.view{
+
+    height: 50vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+#view{
+
+    height: 35vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.view:hover{
+    transition: .5s;
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#view:hover{
+    transition: .5s;
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+ol li{
+    font-size: large;
+}
+
+ul li{
+    font-size: large;
+}
+
+
+
+.profile{
+
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.profile img{
+    
+    margin-top: 40px;
+
+}
+
+.view2{
+
+    height: 64vh;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 20px;
+    background-color: lightgrey;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.view2:hover{
+    transition: .5s;
+    transform: scale(1.02); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}

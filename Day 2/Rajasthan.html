@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Rajasthan</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .main {
+      background-image: url('image/pexels-axp-photography-500641970-19149595.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Discover Rajasthan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="state.html">States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div>
+      <h1 class="display-4">Welcome to Rajasthan</h1>
+      <p class="lead">Explore the land of kings, palaces, forts, and vibrant desert culture.</p>
+    </div>
+  </section>
+
+  <div class="container rajasthan-description my-4">
+    <h2 class="text-center mb-4">About Rajasthan</h2>
+    <p class="text-center">
+      Rajasthan, located in the northwestern part of India, is a land of royal grandeur, rich culture, and historical splendor. Known for its majestic forts, opulent palaces, and vast desert landscapes, Rajasthan offers an experience that blends history, tradition, and beauty. From the colorful markets of Jaipur to the sand dunes of Jaisalmer, the state is an embodiment of India's regal past and vibrant present.
+    </p>
+    <h4>Palaces and Forts</h4>
+    <p>
+      Rajasthan is renowned for its palaces and forts, which are magnificent examples of Rajput architecture. The Amber Fort in Jaipur, Mehrangarh Fort in Jodhpur, and the City Palace in Udaipur are just a few of the iconic landmarks that showcase the royal history of the state. These structures are rich in history and offer a glimpse into the grandeur of Rajasthan's royal heritage.
+    </p>
+    <h4>The Thar Desert</h4>
+    <p>
+      The Thar Desert, also known as the "Great Indian Desert," is a defining feature of Rajasthan. Visitors can enjoy camel rides through the golden sand dunes, experience the beauty of desert life, and attend the famous Pushkar Camel Fair. The desert's unique charm attracts travelers seeking adventure and a taste of Rajasthan's rustic beauty.
+    </p>
+    <h4>Vibrant Culture and Festivals</h4>
+    <p>
+      Rajasthan is famous for its vibrant culture, traditional dance forms like Ghoomar, and folk music. The state celebrates numerous festivals such as Diwali, Holi, Teej, and Makar Sankranti, which are marked by grand processions, folk performances, and traditional rituals. The festivals in Rajasthan are a reflection of the state's rich cultural heritage.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="container my-4">
+    <h4 id="contact">CONTACT</h4>
+    <form>
+      <div class="d-flex">
+        <div class="me-3">
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+        </div> 
+      </div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Message" rows="4" style="width: 400px;" required></textarea><br><br>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Discover Rajasthan. All Rights Reserved.</p>
+      <p>Follow us on:
+        <a href="https://facebook.com" class="text-white mx-2" target="_blank">Facebook</a> |
+        <a href="https://instagram.com" class="text-white mx-2" target="_blank">Instagram</a> |
+        <a href="https://twitter.com" class="text-white mx-2" target="_blank">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

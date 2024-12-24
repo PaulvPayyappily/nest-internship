@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Discover Maharashtra</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <style>
+    .main {
+      background-image: url("image/lion-point-6582528_1920.jpg");
+      background-size: cover;
+      background-position: center;
+      color: white;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Discover Maharashtra</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="main.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="state.html">States</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="main">
+    <div>
+      <h1 class="display-4">Welcome to Maharashtra</h1>
+      <p class="lead">Discover the vibrant culture, historic landmarks, and scenic landscapes of Maharashtra.</p>
+    </div>
+  </section>
+
+  <div class="container maharashtra-description my-4">
+    <h2 class="text-center mb-4">About Maharashtra</h2>
+    <p class="text-center">
+      Maharashtra, located on the western coast of India, is a state that boasts a rich history, vibrant culture, and scenic beauty. From the bustling metropolis of Mumbai to the serene beaches of Goa and the tranquil hill stations of the Western Ghats, Maharashtra offers a perfect blend of urban and natural attractions. The state is also home to historic forts, temples, and cultural festivals that reflect its royal past and diverse traditions.
+    </p>
+    <h4>The City of Mumbai</h4>
+    <p>
+      Mumbai, the financial capital of India, is known for its fast-paced life, iconic landmarks, and thriving entertainment industry (Bollywood). Visitors can explore the Gateway of India, Marine Drive, the Elephanta Caves, and indulge in the vibrant nightlife of this bustling metropolis.
+    </p>
+    <h4>Historic Forts and Temples</h4>
+    <p>
+      Maharashtra is home to numerous forts and temples, such as the iconic **Raigad Fort**, **Shaniwarwada**, and **Ajanta & Ellora Caves**, which are UNESCO World Heritage Sites. These historical sites showcase the rich cultural and architectural legacy of the state.
+    </p>
+    <h4>Hill Stations and Beaches</h4>
+    <p>
+      The state’s Western Ghats are dotted with beautiful hill stations like **Mahabaleshwar**, **Lonavala**, and **Matheran**, offering a cool retreat from the urban heat. Maharashtra also has a beautiful coastline with serene beaches such as **Alibaug**, **Ganpatipule**, and **Malvan**, perfect for a relaxing getaway.
+    </p>
+  </div>
+
+  <hr>
+
+  <div class="container my-4">
+    <h4 id="contact">CONTACT</h4>
+    <form>
+      <div class="d-flex">
+        <div class="me-3">
+          <label for="fullName">Full Name:</label><br>
+          <input type="text" id="fullName" name="fullName" required>
+        </div>
+        <div>
+          <label for="email">Email:</label><br>
+          <input type="email" id="email" name="email" required><br><br>
+        </div> 
+      </div>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" placeholder="Message" rows="4" style="width: 400px;" required></textarea><br><br>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 Discover Maharashtra. All Rights Reserved.</p>
+      <p>Follow us on:
+        <a href="https://facebook.com" class="text-white mx-2" target="_blank">Facebook</a> |
+        <a href="https://instagram.com" class="text-white mx-2" target="_blank">Instagram</a> |
+        <a href="https://twitter.com" class="text-white mx-2" target="_blank">Twitter</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
